@@ -24,12 +24,17 @@ return {
   ---@type AstroCoreOpts
   opts = {
     options = {
+      opt = {
+        guifont = "JetBrainsMono Nerd Font:h12",
+        linespace = 0,
+      },
       g = {
         neovide_increment_scale_factor = vim.g.neovide_increment_scale_factor or 0.1,
         neovide_min_scale_factor = vim.g.neovide_min_scale_factor or 0.7,
         neovide_max_scale_factor = vim.g.neovide_max_scale_factor or 2.0,
         neovide_initial_scale_factor = vim.g.neovide_scale_factor or 1,
         neovide_scale_factor = vim.g.neovide_scale_factor or 1,
+        guifont = "JetBrainsMono Nerd Font:h12",
       },
     },
     commands = {
