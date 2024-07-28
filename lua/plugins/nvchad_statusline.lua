@@ -18,7 +18,7 @@ return {
         separators = {
           left = { "", "" }, -- separator for the left side of the statusline
           right = { " ", "" }, -- separator for the right side of the statusline
-          tab = { "", "" },
+          tab = { "",  "" },
         },
         -- add new colors that can be used by heirline
         colors = function(hl)
@@ -60,7 +60,7 @@ return {
         status.component.mode {
           -- enable mode text with padding as well as an icon before it
           mode_text = {
-            icon = { kind = "VimIcon", padding = { right = 1, left = 1 } },
+            icon = { kind = "VimIcon", padding = { right = 2, left = 2 } },
           },
           -- surround the component with a separators
           surround = {
@@ -162,7 +162,7 @@ return {
           status.component.builder {
             { provider = require("astroui").get_icon "ScrollText" },
             -- add padding after icon
-            padding = { right = 1 },
+            padding = { right = 2 },
             -- set the icon foreground
             hl = { fg = "bg" },
             -- use the right separator and define the background color
