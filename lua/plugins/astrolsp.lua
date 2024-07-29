@@ -26,6 +26,7 @@ return {
           "python",
           "cmake",
           "rust",
+          "lua",
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
           -- "python",
