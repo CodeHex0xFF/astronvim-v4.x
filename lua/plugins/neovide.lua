@@ -25,7 +25,7 @@ return {
   opts = {
     options = {
       opt = {
-        guifont = "JetBrainsMono Nerd Font:h12",
+        guifont = "MonacoLigaturized Nerd Font Mono:h12",
         linespace = 0,
       },
       g = {
@@ -34,7 +34,6 @@ return {
         neovide_max_scale_factor = vim.g.neovide_max_scale_factor or 2.0,
         neovide_initial_scale_factor = vim.g.neovide_scale_factor or 1,
         neovide_scale_factor = vim.g.neovide_scale_factor or 1,
-        guifont = "JetBrainsMono Nerd Font:h12",
       },
     },
     commands = {
