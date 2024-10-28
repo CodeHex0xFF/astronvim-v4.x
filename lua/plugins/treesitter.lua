@@ -13,6 +13,7 @@ return {
       "rust",
       "cmake",
       "bash",
+      "html",
       -- add more arguments for adding more treesitter parsers
     },
   },
