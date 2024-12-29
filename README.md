@@ -30,5 +30,15 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 #### Start Neovim
 
 ```shell
+cargo install fzf ripgrep zoxide bat
+git clone https://github.com/sharkdp/fd
+# Build
+cd fd
+cargo build
+# Run unit tests and integration tests
+cargo test
+# Install
+cargo install --path .
+cargo install --locked yazi-fm yazi-cli
 nvim
 ```
